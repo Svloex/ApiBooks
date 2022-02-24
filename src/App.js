@@ -9,9 +9,12 @@ import {Routes,Route, Link} from 'react-router-dom'
     <div>
       <div style={{border:"1px solid green"}}>
           {/* <Header /> */}
-          <Link to={"/error"}>error</Link>
+          <div>
+            <p>aaa</p>
+          {/* <Link to={"/error"}>error</Link>
           <hr />
-          <Link to={"/"}>home</Link>
+          <Link to={"/"}>home</Link> */}
+          </div>
       </div>
       {/* <div style={{border:"1px solid black"}}>
           <Routes>
