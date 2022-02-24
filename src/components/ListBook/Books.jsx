@@ -15,6 +15,8 @@ function Books(props){
              return parseInt(b.volumeInfo.publishedDate.substring(0,4)-a.volumeInfo.publishedDate.substring(0,4))
          }else if(props.sort === "Oldest"){
              return parseInt(a.volumeInfo.publishedDate.substring(0,4)-b.volumeInfo.publishedDate.substring(0,4))
+         }else{
+             return(a,b)
          }
          
 
