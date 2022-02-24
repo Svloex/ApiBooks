@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 //import {Routes} from 'react-router-dom'
 //import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
-//import Error from './components/Error/Error';
+import Error from './components/Error/Error';
 
  let App = function(props) {
   return (
@@ -19,6 +19,7 @@ import {Link} from 'react-router-dom'
       </div>
       <div style={{border:"1px solid black"}}>
         <div>
+        <Error/>
         {/* <Books/> */}
            {/* <Routes>
             <Route path={'/'} element={<Books/>}/> 
