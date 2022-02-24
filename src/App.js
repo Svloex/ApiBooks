@@ -14,13 +14,14 @@ import {Link} from 'react-router-dom'
            <div>
             <p>aaa</p>
           <hr />
-          <Link to={"books"}>home</Link>
+          <Link to={"/"}>home</Link>
           </div>
       </div>
       <div style={{border:"1px solid black"}}>
         <div>
+        <Books/>
            <Routes>
-            <Route path={'books'} element={<Books/>}/> 
+            <Route path={'/'} element={<Books/>}/> 
             {/* <Route path={'*'} element={<Error/>}/> */}
           </Routes>
           </div>  
