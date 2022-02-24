@@ -1,5 +1,5 @@
 import React from 'react';
-import Books from './components/ListBook/Books';
+//import Books from './components/ListBook/Books';
 import Header from './components/Header/Header';
 import {Routes} from 'react-router-dom'
 import {Route} from 'react-router-dom'
@@ -21,8 +21,8 @@ import Error from './components/Error/Error';
       <div style={{border:"1px solid black"}}>
         <div>
            <Routes>
-             <Route path={'/'} element={<Books/>}/>
-            <Route path={'*'} element={<Error/>}/>
+             {/* <Route path={'/'} element={<Books/>}/> */}
+            <Route path={'/ss'} element={<Error/>}/>
           </Routes>
           </div>  
       </div>
