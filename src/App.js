@@ -1,7 +1,9 @@
 import React from 'react';
 import Books from './components/ListBook/Books';
 import Header from './components/Header/Header';
-import {Routes, Route, NavLink} from 'react-router-dom'
+import {Routes} from 'react-router-dom'
+import {Route} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Error from './components/Error/Error';
 
  let App = function(props) {
@@ -11,9 +13,9 @@ import Error from './components/Error/Error';
           <Header /> 
           <div>
             <p>aaa</p>
-            <NavLink to={"/error"}>error</NavLink>
+            <Link to={"/error"}>error</Link>
           <hr />
-          <NavLink to={"/"}>home</NavLink> 
+          <Link to={"/"}>home</Link> 
           </div>
       </div>
       <div style={{border:"1px solid black"}}>
