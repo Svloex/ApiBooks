@@ -3,7 +3,7 @@ import photo from "../IMG_src/errorImg.png"
 import { connect } from "react-redux"
 
 function Books(props){
-    document.title="App"
+    //document.title="App"
     let books = props.books
     console.log(books)
      if(props.books.length>0){
