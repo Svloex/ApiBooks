@@ -13,16 +13,15 @@ import Error from './components/Error/Error';
           <Header />
            <div>
             <p>aaa</p>
-             <Link to={"/error"}>error</Link>
           <hr />
-          <Link to={"/"}>home</Link>
+          <Link to={"/books"}>home</Link>
           </div>
       </div>
       <div style={{border:"1px solid black"}}>
         <div>
            <Routes>
-             {/* <Route path={'/'} element={<Books/>}/> */}
-            <Route path={'/ss'} element={<Error/>}/>
+            <Route path={'/books'} element={<Books/>}/> 
+            <Route path={'*'} element={<Error/>}/>
           </Routes>
           </div>  
       </div>
