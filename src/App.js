@@ -1,10 +1,10 @@
 import React from 'react';
 import Books from './components/ListBook/Books';
 import Header from './components/Header/Header';
-//import {Routes} from 'react-router-dom'
-//import {Route} from 'react-router-dom'
+import {Routes} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
-//import Error from './components/Error/Error';
+import Error from './components/Error/Error';
 
  let App = function(props) {
   return (
@@ -19,10 +19,10 @@ import {Link} from 'react-router-dom'
       </div>
       <div style={{border:"1px solid black"}}>
         <div>
-         <Books/>
-           {/* <Routes>
+           <Routes>
             <Route path={'/'} element={<Books/>}/> 
-          </Routes> */}
+            <Route path={'*'} element={<Error/>}/> 
+          </Routes> 
           </div>  
       </div>
     </div>
