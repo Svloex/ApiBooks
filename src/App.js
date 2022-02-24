@@ -11,12 +11,12 @@ import Error from './components/Error/Error';
     <div>
       <div style={{border:"1px solid green"}}>
           <Header /> 
-          <div>
+          {/* <div>
             <p>aaa</p>
-            {/* <Link to={"/error"}>error</Link>
+             <Link to={"/error"}>error</Link>
           <hr />
-          <Link to={"/"}>home</Link>  */}
-          </div>
+          <Link to={"/"}>home</Link>  
+          </div> */}
       </div>
       <div style={{border:"1px solid black"}}>
           {/* <Routes>
