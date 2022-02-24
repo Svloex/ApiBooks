@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import {Routes} from 'react-router-dom'
 import {Route} from 'react-router-dom'
 import {Link} from 'react-router-dom'
-import Error from './components/Error/Error';
+//import Error from './components/Error/Error';
 
  let App = function(props) {
   return (
@@ -21,7 +21,7 @@ import Error from './components/Error/Error';
         <div>
            <Routes>
             <Route path={'/books'} element={<Books/>}/> 
-            <Route path={'*'} element={<Error/>}/>
+            {/* <Route path={'*'} element={<Error/>}/> */}
           </Routes>
           </div>  
       </div>
