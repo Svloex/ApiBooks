@@ -1,7 +1,7 @@
 import React from 'react';
 import Books from './components/ListBook/Books';
 import Header from './components/Header/Header';
-import {Routes,Route, Link} from 'react-router-dom'
+import {Routes, Route, Link} from 'react-router-dom'
 import Error from './components/Error/Error';
 
  let App = function(props) {
@@ -18,7 +18,7 @@ import Error from './components/Error/Error';
       </div>
       <div style={{border:"1px solid black"}}>
           <Routes>
-            <Route path={'/'} element={<Books/>}/>
+            {/* <Route path={'/'} element={<Books/>}/> */}
             <Route path={'*'} element={<Error/>}/>
           </Routes>
       </div> 
